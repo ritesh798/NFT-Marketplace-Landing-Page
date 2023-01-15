@@ -1,0 +1,88 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.swiper {
+  list-style: none;
+  width: 1100px;
+}
+
+.pagination {
+  bottom: 0;
+  padding-bottom: 4px;
+}
+
+.slide {
+  text-align: center;
+  height: 320px;
+  line-height: 320px;
+  /* background: #364d79; */
+  overflow: hidden;
+}
+
+.isolate {
+  background: linear-gradient(
+    46deg,
+    rgb(0 0 0) 0%,
+    rgb(91 126 131) 34%,
+    rgba(175, 123, 173, 1) 60%,
+    rgb(0 0 0) 88%
+  );
+}
+
+.slider-container {
+  width: 1100px;
+}
+
+.project-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+
+  margin-bottom: 10px;
+}
+
+.project-heading {
+  font-size: 2rem;
+  font-weight: 500;
+  color: white;
+}
+
+.project-section a {
+  color: blue;
+  text-decoration: inherit;
+  margin-top: 25px;
+}
+/* .app {
+  background: #0c111a;
+} */
+
+.main-heading {
+  color: white;
+  text-shadow: 4px 4px 10px #ddc688;
+}
+
+.collection-btn {
+  font-weight: 600 !important;
+  background: rgb(6, 194, 205);
+  background: linear-gradient(
+    45deg,
+    rgba(6, 194, 205, 1) 32%,
+    rgba(215, 75, 175, 1) 71%
+  );
+}
+
+.market-place-btn {
+  font-weight: 600 !important;
+  background: rgb(28, 80, 83);
+  background: linear-gradient(
+    45deg,
+    rgba(28, 80, 83, 1) 32%,
+    rgba(215, 75, 175, 1) 71%
+  );
+}
+
+.header-wrapper {
+  color: white;
+}
